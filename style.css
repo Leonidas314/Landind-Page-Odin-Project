@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(190, 176, 176);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header p{
+    margin-left: 2em;
+}
+header .ulheader{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-right: 2em;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+main{
+    height: 400px;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+footer{
+    height: 100px;
+    background-color: aquamarine;
+}
