@@ -94,4 +94,11 @@ main .div3{/*div donde se encuentran las imagenes de las distintas artes marcial
 footer{
     height: 100px;
     background: rgba(5,7,12,0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin-top: 30px;
+    color: aliceblue;
 }
