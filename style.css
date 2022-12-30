@@ -7,9 +7,11 @@ body{
 header{
     height: 100px;
     background-color: rgb(190, 176, 176);
+    opacity: .6;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 header p{
     margin-left: 2em;
@@ -22,17 +24,73 @@ header .ulheader{
     flex-direction: row;
     list-style-type: none;
 }
-
-main{
-    height: 400px;
-    background-color: lightblue;
+.logo{/*logo de la empresa en header*/
+    border: solid rgb(24, 24, 160) 2px;
+    border-radius: 50%;
+    height: 75px; width: 75px;
+}
+.headercontainer{
+  background-image: url(/imagenes/paisaje-japones-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment:initial;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-
-
-
-
-
+main{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    background-color:black;
+}
+.div1{
+    height:300px;
+    display: flex;
+    justify-content: center;
+}
+.div1 .frase-imagen{
+    height: 200px;
+    width: 600px;
+    margin-top: 2%;
+    background: rgba(5,7,12,0.40);
+    border-radius: 20%;
+}
+.div1 .frase-imagen p{
+    padding: 2em;
+}
+.frase-imagen ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.imagen-b{
+    height: 100px;
+    width: 100px;
+}
+main .div3{/*div donde se encuentran las imagenes de las distintas artes marciales */
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uldiv3{/*Lista de artes marciales en imagenes*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.uldiv3 li{
+    list-style-type: none;
+    border: 2px darkblue solid;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+}
+.imagen-c{/*imagenes en la lista uldiv3*/
+    width:200px;
+    height:200px;
+    border-radius: 20%;
+}
 footer{
     height: 100px;
     background-color: aquamarine;
