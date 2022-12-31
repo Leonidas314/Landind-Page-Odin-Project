@@ -42,33 +42,49 @@ main{/*Contenedor principal de lista de artes marciales con imagenes*/
     justify-content: center;
     background: rgba(5,7,12,0.40);}
 .div1{
-    height:300px;
+    height:fit-content;
     display: flex;
     justify-content: center;
 }
 .div1 .frase-imagen{
-    height: 250px;
-    width: 600px;
+    height: fit-content;
+    width: 80%;
     margin-top: 2%;
     background: rgba(5,7,12,0.40);/*Propiedad para generar un fondo transparente sobre el div*/
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-
+    margin: 2em;
 }
 .div1 .frase-imagen div{
     width: 45%;
+    height: 275px;
+    font-size: 20px;
+    text-align: center;
+    border: solid beige 3px;
+    padding: 1em;
+    margin: 2em;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: beige;
 }
 .div1 .frase-imagen ul{
     padding: 2em;
     display: flex;
     flex-direction: column;
+    gap:8px;
+    padding-top: 8px;
 }
 .frase-imagen ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 2em;
+}
+.frase-imagen2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
 .imagen-b{
     height: 150px;
@@ -89,7 +105,7 @@ main .div3{/*div donde se encuentran las imagenes de las distintas artes marcial
 }
 .uldiv3 li{
     list-style-type: none;
-    border: 2px darkblue solid;
+    border: 2px beige solid;
     border-radius: 20%;
     height: 200px;
     width: 200px;
@@ -98,6 +114,31 @@ main .div3{/*div donde se encuentran las imagenes de las distintas artes marcial
     width:200px;
     height:200px;
     border-radius: 20%;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    color: beige;
+}
+.div4 .frase-imagen2{
+    height: fit-content;
+    width: 65%;
+    margin-top: 2%;
+    background: rgba(5,7,12,0.40);/*Propiedad para generar un fondo transparente sobre el div*/
+    border-radius: 10px;
+    margin: 2em;
+}
+.div4 .frase-imagen2 ul{
+    display: flex;
+    gap:1em;
+    padding-right: 2em;
+    font-size: 18px;
+}
+#frase-Soho{
+    padding-top: 1em;
+}
+#libro-Soho{
+    text-align: end;
 }
 footer{
     height: 100px;
