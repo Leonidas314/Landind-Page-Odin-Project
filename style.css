@@ -36,7 +36,7 @@ header .ulheader{
   background-attachment: fixed;
 }
 
-main{/*Contenedor principal de lista de artes marciales con imagenes*/
+main, .footercontainer .div3{/*Contenedor principal de lista de artes marciales con imagenes*/
     display: flex;
     height: fit-content;
     justify-content: center;
@@ -91,7 +91,20 @@ main{/*Contenedor principal de lista de artes marciales con imagenes*/
     width: 200px;
     border-radius: 15px;
 }
-main .div3{/*div donde se encuentran las imagenes de las distintas artes marciales */
+.headercontainer .div2, .footercontainer .div2{
+    background: black ;
+    color: beige;
+    font-size: 40px;
+    text-align: center;
+    /*width: 100%;*/
+    height: 80px;
+    margin: 0%;
+    padding-top: 0.1em;
+    padding-bottom: 1em;
+    font-family: "Hanalei Fill";
+    border: solid beige 6px;
+}
+main .div3, .footercontainer .div3{/*div donde se encuentran las imagenes de las distintas artes marciales */
     height: 60%;
     display: flex;
     justify-content: center;
@@ -151,3 +164,11 @@ footer p{
     margin-top: 30px;
     color: aliceblue;
 }
+.footercontainer{
+    background-image: url(/imagenes/arco-japones-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:initial;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
