@@ -126,7 +126,17 @@ main .div3, .footercontainer .div3{/*div donde se encuentran las imagenes de las
     border-radius: 20%;
     height: 200px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.uldiv3 div{
+    position: absolute;
+}
+/*--Efecto al Pasar cursor sobre imagenes--*/
+/*-----------------------------------------*/
+
+/*------------------------------------------*/
 .imagen-c{/*imagenes en la lista uldiv3*/
     width:200px;
     height:200px;
