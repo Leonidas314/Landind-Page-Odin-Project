@@ -132,10 +132,27 @@ main .div3, .footercontainer .div3{/*div donde se encuentran las imagenes de las
 }
 .uldiv3 div{
     position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    opacity: 0;
+    font-family: "Hanalei Fill";
+    font-size: 1.5em;
 }
 /*--Efecto al Pasar cursor sobre imagenes--*/
 /*-----------------------------------------*/
-
+.uldiv3 div:hover{
+    transition: 1s;
+    opacity: 1;
+    background: rgba(5,7,12,0.70);
+    font-size: 2.5em;
+    text-align: center;
+    cursor: pointer;
+}
 /*------------------------------------------*/
 .imagen-c{/*imagenes en la lista uldiv3*/
     width:200px;
