@@ -33,7 +33,7 @@ header .ulheader{
     height: 75px; width: 75px;
 }
 .headercontainer{
-  background-image: url(/imagenes/paisaje-japones-1.jpg);
+  background-image: url(imagenes/paisaje-japones-1.jpg);
   background-repeat: no-repeat;
   background-attachment:initial;
   background-size: cover;
@@ -209,7 +209,7 @@ footer p{
     color: aliceblue;
 }
 .footercontainer{
-    background-image: url(/imagenes/arco-japones-2.jpg);
+    background-image: url(imagenes/arco-japones-2.jpg);
     background-repeat: no-repeat;
     background-attachment:initial;
     background-size: cover;
